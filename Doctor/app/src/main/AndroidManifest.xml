@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.doctor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".YuyueActivity"
+            android:label="预约挂号">
+        </activity>
+
+        <activity
+            android:name=".ZhuActivity"
+            android:label="问医生">
+        </activity>
+
+        <activity
+            android:name=".MeActivity"
+            android:label="个人中心">
+
+        </activity>
+    </application>
+
+</manifest>

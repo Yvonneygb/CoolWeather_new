@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="#F0F8FF"/>
+
+
+
+
+            <SearchView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/search"
+                android:background="#ffffff">
+            </SearchView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="江门"
+                android:layout_toLeftOf="@id/search"
+                android:textColor="#000000"
+                android:textSize="5sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="搜疾病、医生、科室"
+                android:textColor="#979797"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true">
+            </EditText>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#b0b7af"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按科室找"
+            android:textSize="16dp"
+            android:textColor="#70776f"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#F0F8FF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/wen"
+                        android:background="@drawable/ask_doctor"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <!--android:background="@android:drawable/ic_menu_help"-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="儿科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/yuyue"
+                        android:background="@drawable/yuyue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="妇产科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/imageView4"
+                        android:background="@drawable/same_ill_circle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="中医科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/wen1"
+                        android:background="@drawable/library"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="骨科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/wen2"
+                        android:background="@drawable/gong_lue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+                    <!--android:background="@android:drawable/ic_menu_help"-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="营养科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+            </LinearLayout>>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ask_doctor"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="耳科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/yuyue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="精神科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/same_ill_circle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="心理科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/library"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="泌尿科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/gong_lue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+                    <!--android:background="@android:drawable/ic_menu_help"-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="肿瘤科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+            </LinearLayout>>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ask_doctor"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="皮肤科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/yuyue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="眼科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/same_ill_circle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="口腔科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/library"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="咽喉科"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#b0b7af"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/gong_lue"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+                    <!--android:background="@android:drawable/ic_menu_help"-->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="更多..."
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#474e46"/>
+                </LinearLayout>
+            </LinearLayout>>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#b0b7af"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按医院找"
+            android:textSize="24dp"
+            android:textColor="#70776f"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#b0b7af"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/two"
+                    android:layout_margin="16dp"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="江门市人民医院"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:text="三级甲等  患者推荐：4.1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:text="江门市蓬莱路高第里172号"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
